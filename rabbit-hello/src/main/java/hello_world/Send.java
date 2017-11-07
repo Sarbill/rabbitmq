@@ -15,6 +15,8 @@ public class Send {
     public static final  String QUEUE_NAME="hello";
     public static Connection con=null;
 
+    //test git commit;
+
     public static void main(String[] args) {
         try {
             Channel channel = getChannel();
